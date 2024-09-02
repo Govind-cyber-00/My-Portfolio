@@ -5,6 +5,9 @@
     scroll-behavior: smooth;
     font-family: 'poppins', sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 
 .header {
     display: flex;
