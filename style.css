@@ -14,10 +14,10 @@
     align-items: center;
     background-color: rgb(52, 52, 155);
     padding: 1rem;
-    position: fixed;
-    top: 0;
+  /* position: fixed; */
+    /* top: 0;
     left: 0;
-    z-index: 20;
+    z-index: 20; */
 }
 
 .logo {
