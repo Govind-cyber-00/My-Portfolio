@@ -125,6 +125,7 @@
 
 @media (min-width: 840px){
     .navbar {
+        
        display: flex;
        flex-direction: row;
        justify-content: end;
