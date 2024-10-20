@@ -37,16 +37,17 @@
 }
 
 .navbar a {
+    display: flex;
     color: #fff;
     font-size: 18px;
     text-decoration: none;
     padding: 1rem 2.5rem;
     transition: color 0.3s;
-}
+}     
 
 .navbar a:hover,
 .navbar a.active {
-    color: #0ef;
+    color: rgb(251, 231, 10);
 }
 
 /* Responsive Menu Toggle Button */

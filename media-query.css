@@ -124,14 +124,14 @@
 }
 
 @media (min-width: 840px){
-    .navbar {
+    /* .navbar {
         
        display: flex;
        flex-direction: row;
-       justify-content: end;
+       justify-content: end; */
        
         
-    }
+    /* } */
     .portfolio-content {
        flex-direction: row;
        margin-right: 9px;
@@ -151,17 +151,19 @@
         left: 0;
         background-color: rgb(52, 52, 155);
     }
-
+    .navbar .icon{
+        display: non;
+    }
     .navbar.show {
         display: flex;
     }
 
     .navbar a {
         padding: 1rem;
-        border-top: 1px solid #444;
+       display: flex;
         text-align:right;
     }
-
+   
     .navbar a:last-child {
         border-bottom: 1px solid #444;
     }
@@ -218,6 +220,7 @@
         margin-top: 20px;
     }
 }
+
 @media (min-width: 768px) {
     .Technical-bars {
         flex-direction: row;
