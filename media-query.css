@@ -96,7 +96,7 @@
     h1.sub-title {
         text-align: center;
         font-size: 60px;
-        margin: 20px 0;
+        margin: -5px -43px;
         padding-bottom: 6px;
     }
 
@@ -240,7 +240,7 @@
 
     .about-text {
         padding: 0;
-        margin-top: 20px;
+        margin-top: -66px;
     }
 }
 
