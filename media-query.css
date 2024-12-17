@@ -28,6 +28,7 @@
 
     .contact-text h2 {
         font-size: 50px;
+        text-align: left;
     }
 
     .contact-text h4 {
@@ -96,9 +97,10 @@
     h1.sub-title {
         text-align: center;
         font-size: 60px;
-        margin: -5px -43px;
-        margin-left: -41px;
-        padding-bottom: 6px;
+        margin: -5px -15px;
+        margin-left: -15px;
+        margin-left: -42px;
+        padding-bottom: 49px;
     }
 
     .Technical-bars {
