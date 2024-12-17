@@ -114,6 +114,7 @@ a{
 }
 .govind-img{
     width: 437px;
+    margin-left: -27px;
 }
 
 .home-content {
@@ -213,7 +214,7 @@ a{
 .about-img img {
     position: flex;
     padding-bottom: 20%;
-    max-width: 100%;
+    max-width: 110%;
     height:auto;
     border-radius: 10px;
     margin-bottom: 20px;
