@@ -1,146 +1,160 @@
 @media only screen and (max-width:600px) {
-    .container1{
+    .container1 {
         flex-direction: column;
         padding-top: 2rem;
-    
+
     }
-    
-    .home{
+
+    .home {
         padding: 10;
     }
-    .about-img img{
+
+    .about-img img {
         max-width: 100%;
         width: 500px;
 
     }
-    .row img{
+
+    .row img {
         flex-direction: column;
         display: grid;
     }
-    .about-text p{
+
+    .about-text p {
         font-size: 3vw;
     }
-    .home-content{
+
+    .home-content {
         padding: 49px 31px;
     }
-    .contact{
-        display:flex;
+
+    .contact {
+        display: flex;
     }
-    
-    .contact-text h2{
+
+    .contact-text h2 {
         font-size: 50px;
     }
-    .contact-text h4{
+
+    .contact-text h4 {
         font-size: 20px;
     }
-    .contact-list p{
+
+    .contact-list p {
         font-size: 17px;
     }
-    .contact-list{
+
+    .contact-list {
         font-size: 20px;
     }
+
     .contact-list li {
         font-size: 17px;
     }
-    .contact-icons i{
+
+    .contact-icons i {
         width: 30px;
         height: 30px;
         align-items: center;
     }
+
 }
 
 @media (max-width: 700px) {
-    .services-list{
+    .services-list {
         margin: 3px;
         grid-template-columns: minmax(100px, 2fr);
     }
 }
-@media (max-width: 480px){
-   
-    
-    .radial-bars .radial-bar .progress-line{
+@media (max-width: 768px) {
+    body, html{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .navbar{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-toggle{
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+.radial-bars .radial-bar .progress-line {
         font-size: 1.2rem;
         text-align: center;
         display: none;
     }
-    
+
 }
-@media (max-width: 768px){
-    .radial-bars .radial-bar svg{
+
+@media (max-width: 768px) {
+    .radial-bars .radial-bar svg {
         gap: 8px;
         display: grid;
         top: 319%;
-         left: 100%
+        left: 100%
     }
+
     h1.sub-title {
         text-align: center;
         font-size: 60px;
         margin: 20px 0;
         padding-bottom: 6px;
     }
-    
-     .Technical-bars {
-            display: grid;
-            flex-direction: column;
-            gap: 0px;
-          }
-          .Technical-bars .bar {
-            margin: 6px 0;
-          }
-          .info {
-            margin-right: 10px;
-            flex-basis: 0px;
-          }
-    .heading1{
-            margin-bottom: 17px;
+
+    .Technical-bars {
+        display: grid;
+        flex-direction: column;
+        gap: 0px;
     }
-    .radial-bar .text{
+
+    .Technical-bars .bar {
+        margin: 6px 0;
+    }
+
+    .info {
+        margin-right: 10px;
+        flex-basis: 0px;
+    }
+
+    .heading1 {
+        margin-bottom: 17px;
+    }
+
+    .radial-bar .text {
         top: 360%;
         text-align: center;
         left: 100%;
     }
+
     .radial-bar .percentage {
         position: absolute;
         top: 545px;
         left: 100%;
     }
-    
-    /* .home{ */
-        /* background-image: url(govind.png) no-repeat; */
-        /* background-size: 1200px; */
-     /* position: relative;
-    width: 55%;
-    justify-content: space-between;
-    height: 100vh;
-    background-size: cover;
-    background-position: right;
-    display: flex;
-    align-items: center;
-    padding: 70px 10% 0;
-    flex-direction: row-reverse;
-
-    }
-} */
 }
 
-@media (min-width: 840px){
-    /* .navbar {
-        
-       display: flex;
-       flex-direction: row;
-       justify-content: end; */
-       
-        
-    /* } */
-    .portfolio-content {
-       flex-direction: row;
-       margin-right: 9px;
-       
+@media (min-width: 840px) {
+   .portfolio-content {
+        flex-direction: row;
+        margin-right: 9px;
+
     }
 
 
 }
+
 /* Responsive Styles */
+@media (min-width:992px) {
+    .navbar i {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar {
         display: none;
@@ -151,19 +165,29 @@
         left: 0;
         background-color: rgb(52, 52, 155);
     }
-    .navbar .icon{
-        display: non;
+}
+
+@media (max-width: 768px) {
+    .navbars {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: rgb(52, 52, 155);
     }
+
     .navbar.show {
         display: flex;
     }
 
     .navbar a {
         padding: 1rem;
-       display: flex;
-        text-align:right;
+        display: flex;
+        text-align: right;
     }
-   
+
     .navbar a:last-child {
         border-bottom: 1px solid #444;
     }
@@ -172,6 +196,7 @@
         display: block;
     }
 }
+
 @media (min-width: 768px) {
     .about {
         flex-direction: row;
@@ -187,19 +212,22 @@
 
     .about-img {
         margin-bottom: 0;
-       
+
     }
-    .govind-img{
+
+    .govind-img {
         width: 700px;
     }
+
     /* .about {
         flex-direction: row-reverse;
         
     } */
     .home {
-       flex-direction: row-reverse;
+        flex-direction: row-reverse;
     }
-    .home div img{
+
+    .home div img {
         margin-left: -50px;
     }
 }
@@ -264,10 +292,10 @@
     }
 
     .radial-bars {
-            flex-direction: column;
-            top: -458px;
+        flex-direction: column;
+        top: -458px;
     }
-        
+
     .radial-bar {
         width: 100%;
     }
@@ -280,20 +308,25 @@
 @media (max-width: 768px) {
     .home {
         padding: 50px 5% 0;
-        height: auto; /* Adjust height for better mobile display */
+        height: auto;
+        /* Adjust height for better mobile display */
     }
+
     .home-content h3 {
         font-size: 28px;
         animation-delay: .5s;
     }
+
     .home-content h1 {
         font-size: 48px;
         animation-delay: .7s;
     }
+
     .home-content p {
         font-size: 18px;
         animation-delay: .7s;
     }
+
     .home-sci a {
         width: 35px;
         height: 35px;
@@ -367,23 +400,29 @@
         font-size: 14px;
         padding: 6px 12px;
     }
-}@media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .home {
         padding: 30px 2%;
         background-position: right;
     }
+
     .home-content h3 {
         font-size: 24px;
         animation-delay: .3s;
     }
+
     .home-content h1 {
         font-size: 36px;
         animation-delay: .5s;
     }
+
     .home-content p {
         font-size: 16px;
         animation-delay: .5s;
     }
+
     .home-sci a {
         width: 30px;
         height: 30px;
