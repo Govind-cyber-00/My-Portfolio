@@ -20,7 +20,7 @@
 
     .home-content {
         padding: 12px 44px;
-    margin-left: -37px;
+    margin-left: -56px;
   }
     .contact {
         display: flex;
@@ -233,7 +233,8 @@
 
     .about-img img {
         border-radius: 0;
-        width: 110%;
+        width: 124%;
+        margin-left: -37px;
         height: auto;
     }
 
