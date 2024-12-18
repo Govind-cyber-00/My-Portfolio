@@ -52,6 +52,7 @@
     transition: color 0.3s;
 }  
   
+
 .navbars a {
     display: flex;
     color: #fff;
@@ -59,7 +60,16 @@
     text-decoration: none;
     padding: 1rem 2.5rem;
     transition: color 0.3s;
-}     
+}    
+nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link.active {
+    color: rgb(251, 231, 10);
+    font-weight: bold;
+  } 
 
 .navbar a:hover,
 .navbar a.active {
