@@ -402,6 +402,13 @@
 }
 
 @media (max-width: 480px) {
+    section{
+        padding: 2px;
+    }
+    .container1 {
+        width: 600px;
+        height: 80px;
+    }
     .home {
         padding: 30px 2%;
         background-position: right;
