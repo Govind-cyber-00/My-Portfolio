@@ -441,10 +441,13 @@
     
     }
     .project-box{
-        margin-left: 1.5rem;
+        margin-left: 0.5rem;
     }
     .project-single video{
-     width: 300px;
+     width: 334px;
+    }
+    .project-single img{
+     width: 334px;
     }
 }
 
