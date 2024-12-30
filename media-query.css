@@ -2,7 +2,11 @@
     .container1 {
         flex-direction: column;
         padding-top: 2rem;
+        margin-bottom: 52rem;
 
+    }
+    .main-text h2{
+       margin-top: -370px;
     }
 
     .home {
@@ -189,7 +193,6 @@
     .navbar a:last-child {
         border-bottom: 1px solid #444;
     }
-
     .menu-toggle {
         display: block;
     }
