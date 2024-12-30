@@ -785,13 +785,6 @@ section {
 
 }
 
-.portfolio-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    /* grid-template-columns: repeat(auto-fit, minmax(359px, auto)); */
-}
-
 .row {
     position: relative;
     overflow: hidden;
