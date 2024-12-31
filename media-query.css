@@ -1,12 +1,7 @@
 @media only screen and (max-width:600px) {
-    .container1 {
-        flex-direction: column;
-        padding-top: 2rem;
-        margin-bottom: 52rem;
-
-    }
+   
     .main-text h2{
-       margin-top: -370px;
+       margin-top: 1225px;
     }
 
     .home {
@@ -80,24 +75,7 @@
         margin-right: 0;
     }
 }
-
-
-@media (max-width: 480px) {
-.radial-bars .radial-bar .progress-line {
-        font-size: 1.2rem;
-        text-align: center;
-        display: none;
-    }
-
-}
-
 @media (max-width: 768px) {
-    .radial-bars .radial-bar svg {
-        gap: 8px;
-        display: grid;
-        top: 319%;
-        left: 100%
-    }
 
     h1.sub-title {
         text-align: center;
@@ -108,47 +86,14 @@
         padding-bottom: 49px;
     }
 
-    .Technical-bars {
-        display: grid;
-        flex-direction: column;
-        gap: 0px;
-    }
-
-    .Technical-bars .bar {
-        margin: 6px 0;
-    }
+   
 
     .info {
         margin-right: 10px;
         flex-basis: 0px;
     }
 
-    .heading1 {
-        margin-bottom: 17px;
-    }
 
-    .radial-bar .text {
-        top: 360%;
-        text-align: center;
-        left: 100%;
-    }
-
-    .radial-bar .percentage {
-        position: absolute;
-        top: 545px;
-        left: 100%;
-    }
-}
-
-@media (min-width: 840px) {
-   .portfolio-content {
-        flex-direction: row;
-        margin-right: 9px;
-
-    }
-
-
-}
 
 /* Responsive Styles */
 @media (min-width:992px) {
@@ -195,6 +140,7 @@
     }
     .menu-toggle {
         display: block;
+        
     }
 }
 
@@ -251,61 +197,13 @@
     }
 }
 
-@media (min-width: 768px) {
-    .Technical-bars {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .bar {
-        flex: 1 1 calc(33.333% - 20px);
-        align-items: center;
-    }
-
-    .radial-bars {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .radial-bar {
-        flex: 1 1 calc(25% - 20px);
-    }
-}
-
-@media (max-width: 767px) {
-    .Technical-bars {
-        flex-direction: column;
-    }
-
-    .bar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
     .info {
         margin-right: 0;
         margin-bottom: 5px;
     }
 
-    .progress-line {
-        width: 100%;
-    }
-
-    .radial-bars {
-        flex-direction: column;
-        top: -458px;
-    }
-
-    .radial-bar {
-        width: 100%;
-    }
-
-    .percentage {
-        font-size: 16px;
-    }
-}
+  
 
 @media (max-width: 768px) {
     .home {
@@ -451,6 +349,23 @@
     }
     .project-single img{
      width: 334px;
+    }
+    .Technical-bars{
+        display: flex;
+    flex-direction: column;
+    margin-left: -106px;
+    }
+    .container1 {
+        margin-left: 7rem;
+    }
+     
+    }
+    .Technical-bars i{
+        width: 300px;
+    }
+    .bar-k{
+        margin: 6px;
+        margin-left: 2px;
     }
 }
 
