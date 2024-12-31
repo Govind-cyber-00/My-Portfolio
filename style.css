@@ -409,7 +409,6 @@ section {
     padding: 20px;
     margin-left: 257px;
     margin-bottom: 25rem;
-    margin-top: -72px;
 }
 
 .Technical-bars {
@@ -713,6 +712,336 @@ section {
     margin-bottom: 20px;
 }
 
+/* .bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.bar i {
+    font-size: 24px;
+    margin-right: 10px;
+} */
+
+/* .Technical-bars {
+    display: block;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+
+.info {
+    margin-right: 10px;
+    flex-basis: 80px;
+}
+
+/* .progress-line {
+    flex-grow: 1;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    position: relative;
+} */
+
+/* /* .progress-line span {
+    display: block;
+    height: 100%;
+    background: #007bff;
+    width: 0;
+    border-radius: 5px;
+} */
+*/
+/* 
+.html span {
+    width: 80%;
+}
+
+.css span {
+    width: 80%;
+}
+
+.javascript span {
+    width: 60%;
+}
+
+.java span {
+    width: 50%;
+}
+
+.c-plus-plus span {
+    width: 65%;
+}
+
+
+.Technical-bars .bar {
+    margin: 40px 0;
+
+}
+
+.Technical-bars .bar:first-child {
+    margin-top: 0;
+}
+
+.Technical-bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.Technical-bars .bar .info {
+    margin-bottom: 5px;
+}
+
+.Technical-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.Technical-bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+    animation: animate 1s cubic-bezier(1, 0, 0, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.Technical-bars .bar .progress-line span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.progress-line.html span {
+    width: 90%;
+}
+
+.progress-line.css span {
+    width: 80%;
+}
+
+.progress-line.javascript span {
+    width: 65%;
+}
+.progress-line.bootstrap span {
+    width: 65%;
+}
+.progress-line.react-js span {
+    width: 60%;
+}
+
+.progress-line.java span {
+    /* Ensure this matches the HTML class exactly */
+/* width: 60%;
+} */
+
+/* .progress-line.c-plus-plus span {
+    width: 85%;
+}
+
+.progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-line.html span::after {
+    content: "90%";
+}
+
+.progress-line.css span::after {
+    content: "80%";
+}
+
+.progress-line.javascript span::after {
+    content: "65%";
+}
+.progress-line.react-js span::after {
+    content: "60%";
+}
+
+.progress-line.java span::after {
+    content: "60%";
+}
+.progress-line.bootstrap span::after {
+    content: "75%";
+}
+
+.progress-line.c-plus-plus span::after {
+    content: "85%";
+}
+
+.progress-line span::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    top: -10px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+
+.radial-bars {
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.radial-bar svg {
+    width: 100px;
+    height: 100px;
+}
+
+.radial-bars .radial-bar {
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.progress-bar {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 10;
+}
+
+.radial-bars .radial-bar svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radial-bars .radial-bar .progress-line {
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+} */
+
+/* @keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+} */
+
+/* .path {
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path-1 {
+    fill: none;
+    stroke: #007bff;
+    stroke-width: 10;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    transition: stroke-dashoffset 1s ease;
+    animation: animate-path1 1s 1s linear forwards;
+}
+
+.path-2 {
+
+    animation: animate-path2 1s 1s linear forwards;
+}
+
+.path-3 {
+
+    animation: animate-path3 1s 1s linear forwards;
+}
+
+.path-4 {
+
+    animation: animate-path4 1s 1s linear forwards;
+}
+
+@keyframes animate-path1 {
+    100% {
+        stroke-dashoffset: 50;
+    }
+}
+
+@keyframes animate-path2 {
+    100% {
+        stroke-dashoffset: 175;
+    }
+}
+
+@keyframes animate-path3 {
+    100% {
+        stroke-dashoffset: 125;
+    }
+}
+
+@keyframes animate-path4 {
+    100% {
+        stroke-dashoffset: 75;
+    }
+}
+
+.percentage {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.radial-bar .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+ */
 .text {
     width: 100%;
     position: absolute;
@@ -732,7 +1061,7 @@ section {
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
     padding-top: 130px;
-    margin-top: 23px;
+    margin-top: 200px;
 }
 
 .main-text h2 {
