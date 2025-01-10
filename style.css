@@ -404,282 +404,7 @@ section {
     flex-wrap: wrap;
 }
 
-.container1 {
-    width: 600px;
-    height: 129px;
-    padding: 20px;
-    margin-left: 257px;
-    margin-bottom: 25rem;
-}
-
-.Technical-bars {
-    display: block ruby;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-
-
-}
-
-.info span {
-    margin: 10px 0;
-    font-style: bold;
-}
-
-.bar-a {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-a img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-a:hover {
-    background: #c95d2e;
-}
-
-.bar-b {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-b img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-b:hover {
-    background: #147bbc;
-}
-
-.bar-c {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-c img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-c:hover {
-    background: #b0bc1e;
-}
-
-.bar-d {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-d img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-d:hover {
-    background: #5f7374;
-}
-
-.bar-e {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-e img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-e:hover {
-    background: #576d6f;
-}
-
-.bar-f {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-f img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-f:hover {
-    background: rgb(78, 78, 185);
-}
-
-.bar-g {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-g img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-g:hover {
-    background: rgb(106, 82, 74);
-}
-
-.bar-h {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-h img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-h:hover {
-    background: white;
-}
-
-.bar-i {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-i img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-i:hover {
-    background: green;
-}
-
-.bar-j {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 0s;
-    animation-delay: 1.5s;
-    margin: 10px;
-    width: 150px;
-}
-
-.bar-j img {
-    width: 70px;
-    height: 70px;
-}
-
-.bar-j:hover {
-    background: rgb(173, 87, 59);
-}
-
-.bar-k {
+/* .bar-k {
     background-color: #333;
     padding: 20px;
     border-radius: 10px;
@@ -694,16 +419,9 @@ section {
     margin: 10px;
     width: 150px;
     margin-left: 357px;
-}
+} */
 
-.bar-k img {
-    width: 70px;
-    height: 70px;
-}
 
-.bar-k:hover {
-    background: rgba(18, 18, 235, 0.311);
-}
 
 .heading1 {
     text-align: center;
@@ -712,10 +430,7 @@ section {
     text-decoration-thickness: 3px;
     margin-bottom: 20px;
 }
-.info {
-    margin-right: 10px;
-    flex-basis: 80px;
-}
+
 */ 
 
 .text {
@@ -745,6 +460,7 @@ section {
     line-height: 4;
     text-align: center;
     padding-left: 8%;
+    margin-top: -470px;
 
 }
 
@@ -1100,3 +816,325 @@ form textarea {
 .project-btn:hover {
     background: rgb(255, 155, 0);
 }
+
+  /* hover */
+ 
+  
+  .skill-box-a:hover {
+    transform: translateY(-5px);
+    background-color: #d82424;
+    
+    
+    
+  }
+  .skill-box-b:hover {
+    transform: translateY(-5px);
+    background-color: rgb(41, 101,241 );
+    
+  }
+  .skill-box-c:hover {
+    transform: translateY(-5px);
+    background-color: rgb(240 219 79) ;
+    
+  }
+  .skill-box-d:hover {
+    transform: translateY(-5px);
+    background-color: rgb(102 214 255);
+  }
+  .skill-box-e:hover {
+    transform: translateY(-5px);
+    background-color: #078ded;
+  }
+  .skill-box-f:hover {
+    transform: translateY(-5px);
+    background-color: rgba(59,130,246);
+  }
+  .skill-box-g:hover {
+    transform: translateY(-5px);
+    background-color: #fc0909;
+  }
+  .skill-box-h:hover {
+    transform: translateY(-5px);
+    background-color: black ;
+  }
+  .skill-box-i:hover {
+    transform: translateY(-5px);
+    background-color: rgba(15, 127, 11, 0.856);
+  }
+  .skill-box-j:hover {
+    transform: translateY(-5px);
+    background-color: #d82424;
+  }
+  .skill-box-k:hover {
+    transform: translateY(-5px);
+    background-color:rgb(41, 101,241 ) ;
+  }
+
+  /* Icon Styling */
+  .skill-box-a i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+ 
+  .skill-box-b i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .skill-box-c i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .skill-box-d i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .skill-box-e i
+   {
+    font-size: 2rem;
+    margin-right: 12px;
+    width: 48px;
+  }
+  .skill-box-f i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .skill-box-g i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .skill-box-h i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .skill-box-i i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .skill-box-j i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .skill-box-k i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+
+
+/* color of box */
+  .skill-box-a i.fa-solid,
+  .skill-box-a i.fa-brands {
+    color: #d82424;
+    
+  }
+  .skill-box-b i.fa-solid,
+  .skill-box-b i.fa-brands {
+    color: rgb(41, 101,241 );
+  }
+  .skill-box-c i.fa-solid,
+  .skill-box-c i.fa-brands {
+    color: rgb(240 219 79) ;
+  }
+  .skill-box-d i.fa-solid,
+  .skill-box-d i.fa-brands {
+    color: rgb(102 214 255);
+  }
+  .skill-box-e i.fa-solid,
+  .skill-box-e i.bx {
+    color: rgba(59,130,246);
+  }
+  .skill-box-f i.fa-solid,
+  .skill-box-f i.fa-brands {
+    color: rgb(102 214 255);
+  }
+  .skill-box-g i.fa-solid,
+  .skill-box-g i.fa-brands {
+    color: #fc0909;
+  }
+  .skill-box-h i.fa-solid,
+  .skill-box-h i.fa-brands {
+    color: #fff;
+  }
+  .skill-box-i i.fa-solid,
+  .skill-box-i i.fa-brands {
+    color: rgba(15, 127, 11, 0.856);
+  }
+  .skill-box-j i.fa-solid,
+  .skill-box-j i.fa-brands {
+    color: #d82424;
+  }
+  .skill-box-k i.fa-solid,
+  .skill-box-k i.fa {
+    color: rgb(8, 8, 252);
+  }
+
+  
+
+  
+  .skills-section {
+    width: 100%;
+    margin: -38px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #081b29;
+    border-radius: 10px;
+    margin-left: 393px;
+    
+  }
+
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+
+  }
+
+  .skill-box-a {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #d82424;
+    text-align: center;
+    transition: background 0.3s ease, border-color 0.3 ease;
+    cursor: pointer;
+  }
+  
+  .skill-box-b {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(41, 101,241 );
+    text-align: center;
+    transition: background 0.3s ease, border-color 0.3 ease;
+    cursor: pointer;
+  }
+  .skill-box-c {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(240 219 79);
+    text-align: center;
+    transition: background 0.3s ease, border-color 0.3 ease;
+    cursor: pointer;
+  }
+  .skill-box-d {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(102 214 255);
+    text-align: center;
+    transition: background 0.3s ease, border-color 0.3 ease;
+    cursor: pointer;
+  }
+  .skill-box-e {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(102 214 255);
+    text-align: center;
+    transition: background 0.3s ease, border-color 0.3 ease;
+    cursor: pointer;
+  }
+  .skill-box-f {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(59,130,246);;
+    text-align: center;
+  }
+  .skill-box-g {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #fc0909;
+    text-align: center;
+    transition: background 0.3s ease, border-color 0.3 ease;
+    cursor: pointer;
+  }
+  .skill-box-h {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    transition: background 0.3s ease, border-color 0.3 ease;
+    cursor: pointer;
+  }
+  .skill-box-i {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(15, 127, 11, 0.856);
+    text-align: center;
+  }
+  .skill-box-j {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 96%, 44%);
+    text-align: center;
+    transition: background 0.3s ease, border-color 0.3 ease;
+    cursor: pointer;
+  }
+  .skill-box-k {
+    background-color: #081b29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    transition: background 0.3s ease, border-color 0.3 ease;
+    cursor: pointer;
+  }
+
+ 
+
+  
+  .container i:hover {
+color: #fff; /* Different bg for the first element */
+transform: scale(1.1);
+}
+.container{
+transition: transform 0.3s ease;
+}
+.element{
+transition: color 0.3s ease;
+}
+.container:hover{
+transition: cubic-bezier(0.23, 1, 0.320, 1);
+ /* Different bg for the container */
+}
+.container, .element {
+cursor: pointer;
+}
+
+.container:hover, .container:hover .element {
+border-color: #fff; /* Optional: Hovering changes both */
+color: #fff;
+
+}
+.marquee-container {
+
+ 
+  padding: 106px;
+  cursor: pointer;
+}
+.marquee-container{
+color: white;
+font-size: 1rem;
+
+}
+.marquee-container marquee{
+    margin-left: 412px;
+}
+
+marquee :hover{
+cursor: pointer;
+color: blue;
+
+}
+marquee span{
+text-decoration: underline;
+color: yellow;
+}
+
+
